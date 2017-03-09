@@ -49,6 +49,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/ois_SE_BU24219.bin:system/etc/firmware/ois_SE_BU24219.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/ois_SP_BU24219.bin:system/etc/firmware/ois_SP_BU24219.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/ois_VE_BU24219.bin:system/etc/firmware/ois_VE_BU24219.bin \
+    vendor/samsung/msm8976-common/proprietary/etc/firmware/otp30.bin:system/etc/firmware/otp30.bin \
+    vendor/samsung/msm8976-common/proprietary/etc/firmware/qwlan30.bin:system/etc/firmware/qwlan30.bin \
+    vendor/samsung/msm8976-common/proprietary/etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
+    vendor/samsung/msm8976-common/proprietary/etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
+    vendor/samsung/msm8976-common/proprietary/etc/firmware/utfbd30_R01.bin:system/etc/firmware/utfbd30_R01.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
