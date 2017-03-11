@@ -17,6 +17,10 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/msm8976-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+	vendor/samsung/msm8976-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+	vendor/samsung/msm8976-common/proprietary/bin/qmuxd:system/bin/qmuxd \
+	vendor/samsung/msm8976-common/proprietary/bin/radish:system/bin/radish \
+	vendor/samsung/msm8976-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/samsung/msm8976-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/samsung/msm8976-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/msm8976-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -115,6 +119,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/hw/vulkan.msm8952.so:system/vendor/lib64/hw/vulkan.msm8952.so \
+	vendor/samsung/msm8976-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+	vendor/samsung/msm8976-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+	vendor/samsung/msm8976-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -195,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libyasalgo.so:system/vendor/lib64/libyasalgo.so \
+	vendor/samsung/msm8976-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
